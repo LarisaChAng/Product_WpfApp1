@@ -49,5 +49,16 @@ namespace Product_WpfApp1
             });
             listBox.ItemsSource = products;
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            products.Add(new Product()
+            {
+                ProdName = "Утюг",
+                ProdPrice = 6200,
+                ProdImage = "Data/iron.jpg",
+                ProductCategory = ProductCategorys.Appliances
+            });
+        }
     }
 }

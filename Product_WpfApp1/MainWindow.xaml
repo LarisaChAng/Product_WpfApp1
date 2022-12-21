@@ -43,5 +43,6 @@
     <StackPanel>
         <TextBlock x:Name="prodTitle" FontSize="20" Text="Список покупок:" HorizontalAlignment="Center"/>
         <ListBox x:Name="listBox" Width="400" Margin="10" ItemTemplate="{StaticResource prodTemplate}" HorizontalContentAlignment="Stretch"/>
+        <Button Content="+++" Click="Button_Click"/>
     </StackPanel>
 </Window>
